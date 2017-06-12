@@ -1,4 +1,4 @@
-/*
+package intellij;/*
  * Copyright 2000-2009 JetBrains s.r.o.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -38,11 +38,11 @@ public abstract class AbstractLayout implements LayoutManager2 {
    */
   protected Insets myMargin;
   /**
-   * Horizontal gap between columns. This parameter is used only by GridLayoutManager.
+   * Horizontal gap between columns. This parameter is used only by intellij.GridLayoutManager.
    */
   private int myHGap;
   /**
-   * Vertical gap between rows. This parameter is used only by GridLayoutManager.
+   * Vertical gap between rows. This parameter is used only by intellij.GridLayoutManager.
    */
   private int myVGap;
   private static final Component[] COMPONENT_EMPTY_ARRAY = new Component[0];

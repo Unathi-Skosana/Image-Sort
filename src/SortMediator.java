@@ -26,7 +26,9 @@ public class SortMediator {
      * @param SortAlg           sorting algorithm
      * @param comparisonChannel comparator for specifying order.
      */
-    public SortMediator(ColorMeanVector[] means, String sortAlg, Comparator<ColorMeanVector> comparisonChannel) {
+    public SortMediator(ColorMeanVector[] means
+                , String sortAlg
+                , Comparator<ColorMeanVector> comparisonChannel) {
         this.originalList = copyArray(means);
         long start = System.currentTimeMillis();
         sort(means, sortAlg, comparisonChannel);
@@ -38,7 +40,6 @@ public class SortMediator {
 
     /**
      * Getter method
-     *
      *
      * @return returns original and unsorted list
      */
@@ -89,7 +90,9 @@ public class SortMediator {
      * @param sortAlg sorting algorithm
      * @param channel comparator for specifying order.
      */
-    private static void sort(ColorMeanVector[] means, String sortAlg, Comparator<ColorMeanVector> channel) {
+    private static void sort(ColorMeanVector[] means
+                , String sortAlg
+                , Comparator<ColorMeanVector> channel) {
         switch (sortAlg) {
             case "0":
                 ComparatorInsertion.sort(means, channel);

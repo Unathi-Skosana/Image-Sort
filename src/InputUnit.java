@@ -25,8 +25,9 @@ public class InputUnit {
     private String sortAlg;
     private String sortParam;
 
-    public InputUnit(String imageDirectory, String sortAlg, String sortParam, String guiToggle) {
-        inspectInput(sortAlg, sortParam, guiToggle); // Precautionary step!
+    public InputUnit(String imageDirectory, String sortAlg
+                        , String sortParam, String guiToggle) {
+        inspectInput(sortAlg, sortParam, guiToggle);
         this.imageFiles = getFilesByExt(imageDirectory, "jpg");
         this.comparisonChannel = selectComparator(sortParam);
         this.means = calculateMeans(imageFiles);
@@ -125,18 +126,28 @@ public class InputUnit {
      * @throws ImageSortException if an error for invalid command line
      *                            input
      */
-    private static void inspectInput(String sortAlg, String sortParam, String guiState) {
-        if (!(sortAlg.equals("0") || sortAlg.equals("1") ||
-               sortAlg.equals("2") || sortAlg.equals("3") || sortAlg.equals("4"))) {
-            throw new ImageSortException("An input error occured: Invalid sorting algorithm choice.");
+    private static void inspectInput(String sortAlg
+                , String sortParam, String guiState) {
+        if (!(sortAlg.equals("0")
+               || sortAlg.equals("1")
+               || sortAlg.equals("2")
+               || sortAlg.equals("3")
+               || sortAlg.equals("4"))) {
+            throw new ImageSortException("An input error occured:"
+                        +  " Invalid sorting algorithm choice.");
         }
 
-        if (!(sortParam.equals("0") || sortParam.equals("1") || sortParam.equals("2"))) {
-            throw new ImageSortException("An input error occured: Invalid sorting parameter choice.");
+        if (!(sortParam.equals("0") 
+                || sortParam.equals("1")
+                || sortParam.equals("2"))) {
+            throw new ImageSortException("An input error occured:" 
+                        + " Invalid sorting parameter choice.");
         }
 
-        if (!(guiState.equals("0") || guiState.equals("1"))) {
-           throw new ImageSortException("An input error occured: Invalid GUI state choice.");
+        if (!(guiState.equals("0")
+                || guiState.equals("1"))) {
+           throw new ImageSortException("An input error occured:"
+                        + " Invalid GUI state choice.");
         }
     }
 
@@ -182,7 +193,10 @@ public class InputUnit {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return new ColorMeanVector(file.getName(), 1.00 * r / pixelCount, 1.00 * g / pixelCount, 1.00 * b / pixelCount);
+        return new ColorMeanVector(file.getName()
+                , 1.00 * r / pixelCount
+                , 1.00 * g / pixelCount
+                , 1.00 * b / pixelCount);
     }
 
     /**
@@ -192,11 +206,13 @@ public class InputUnit {
      * @param  extension filter file extension
      * @return returns arrayList containing the filtered files.
      */
-    private static ArrayList<File> getFilesByExt(String directory, String extension) {
+    private static ArrayList<File>
+            getFilesByExt(String directory, String extension) {
         ArrayList <File> images = new ArrayList<File>();
         File[] files = new File(directory).listFiles();
         for (File file: files) {
-            if (file.isFile() && isExtension(file.getName(), extension)) {
+            if (file.isFile()
+                && isExtension(file.getName(), extension)) {
                 images.add(file);
             }
         }
@@ -212,8 +228,10 @@ public class InputUnit {
      * @return returns a true if fileName has the extension, and returns
      *         false if otherwise.
      */
-    private static boolean isExtension(String fileName, String extension) {
+    private static boolean isExtension(String fileName
+                , String extension) {
         int index = fileName.indexOf(".");
-        return extension.equals(fileName.substring(index + 1, fileName.length()));
+        return extension.equals(fileName.substring(index + 1
+                , fileName.length()));
     }
 }

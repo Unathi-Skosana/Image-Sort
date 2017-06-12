@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d44bf80-d138-47c4-8c45-09bc15f263dc" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractLayout.java" afterPath="$PROJECT_DIR$/src/intellij/AbstractLayout.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DimensionInfo.java" afterPath="$PROJECT_DIR$/src/intellij/DimensionInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GridConstraints.java" afterPath="$PROJECT_DIR$/src/intellij/GridConstraints.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GridLayoutManager.java" afterPath="$PROJECT_DIR$/src/intellij/GridLayoutManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/HorizontalInfo.java" afterPath="$PROJECT_DIR$/src/intellij/HorizontalInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LayoutState.java" afterPath="$PROJECT_DIR$/src/intellij/LayoutState.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Spacer.java" afterPath="$PROJECT_DIR$/src/intellij/Spacer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Util.java" afterPath="$PROJECT_DIR$/src/intellij/Util.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/VerticalInfo.java" afterPath="$PROJECT_DIR$/src/intellij/VerticalInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test100.jpg" afterPath="$PROJECT_DIR$/tests/test100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test101.jpg" afterPath="$PROJECT_DIR$/tests/test101.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test102.jpg" afterPath="$PROJECT_DIR$/tests/test102.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test103.jpg" afterPath="$PROJECT_DIR$/tests/test103.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test104.jpg" afterPath="$PROJECT_DIR$/tests/test104.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test105.jpg" afterPath="$PROJECT_DIR$/tests/test105.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test106.jpg" afterPath="$PROJECT_DIR$/tests/test106.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test107.jpg" afterPath="$PROJECT_DIR$/tests/test107.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test108.jpg" afterPath="$PROJECT_DIR$/tests/test108.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test109.jpg" afterPath="$PROJECT_DIR$/tests/test109.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test110.jpg" afterPath="$PROJECT_DIR$/tests/test110.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test111.jpg" afterPath="$PROJECT_DIR$/tests/test111.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test112.jpg" afterPath="$PROJECT_DIR$/tests/test112.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test113.jpg" afterPath="$PROJECT_DIR$/tests/test113.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test114.jpg" afterPath="$PROJECT_DIR$/tests/test114.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test115.jpg" afterPath="$PROJECT_DIR$/tests/test115.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test116.jpg" afterPath="$PROJECT_DIR$/tests/test116.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test117.jpg" afterPath="$PROJECT_DIR$/tests/test117.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test118.jpg" afterPath="$PROJECT_DIR$/tests/test118.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test119.jpg" afterPath="$PROJECT_DIR$/tests/test119.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test120.jpg" afterPath="$PROJECT_DIR$/tests/test120.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test121.jpg" afterPath="$PROJECT_DIR$/tests/test121.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test122.jpg" afterPath="$PROJECT_DIR$/tests/test122.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test123.jpg" afterPath="$PROJECT_DIR$/tests/test123.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test124.jpg" afterPath="$PROJECT_DIR$/tests/test124.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test125.jpg" afterPath="$PROJECT_DIR$/tests/test125.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test126.jpg" afterPath="$PROJECT_DIR$/tests/test126.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test127.jpg" afterPath="$PROJECT_DIR$/tests/test127.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test128.jpg" afterPath="$PROJECT_DIR$/tests/test128.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test129.jpg" afterPath="$PROJECT_DIR$/tests/test129.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test130.jpg" afterPath="$PROJECT_DIR$/tests/test130.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test131.jpg" afterPath="$PROJECT_DIR$/tests/test131.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test132.jpg" afterPath="$PROJECT_DIR$/tests/test132.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test133.jpg" afterPath="$PROJECT_DIR$/tests/test133.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test134.jpg" afterPath="$PROJECT_DIR$/tests/test134.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test135.jpg" afterPath="$PROJECT_DIR$/tests/test135.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test136.jpg" afterPath="$PROJECT_DIR$/tests/test136.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test137.jpg" afterPath="$PROJECT_DIR$/tests/test137.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test138.jpg" afterPath="$PROJECT_DIR$/tests/test138.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test139.jpg" afterPath="$PROJECT_DIR$/tests/test139.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test140.jpg" afterPath="$PROJECT_DIR$/tests/test140.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test141.jpg" afterPath="$PROJECT_DIR$/tests/test141.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test142.jpg" afterPath="$PROJECT_DIR$/tests/test142.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test143.jpg" afterPath="$PROJECT_DIR$/tests/test143.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test144.jpg" afterPath="$PROJECT_DIR$/tests/test144.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test145.jpg" afterPath="$PROJECT_DIR$/tests/test145.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test146.jpg" afterPath="$PROJECT_DIR$/tests/test146.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test147.jpg" afterPath="$PROJECT_DIR$/tests/test147.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test148.jpg" afterPath="$PROJECT_DIR$/tests/test148.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test149.jpg" afterPath="$PROJECT_DIR$/tests/test149.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test150.jpg" afterPath="$PROJECT_DIR$/tests/test150.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test151.jpg" afterPath="$PROJECT_DIR$/tests/test151.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test152.jpg" afterPath="$PROJECT_DIR$/tests/test152.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test153.jpg" afterPath="$PROJECT_DIR$/tests/test153.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test154.jpg" afterPath="$PROJECT_DIR$/tests/test154.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test155.jpg" afterPath="$PROJECT_DIR$/tests/test155.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test156.jpg" afterPath="$PROJECT_DIR$/tests/test156.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test157.jpg" afterPath="$PROJECT_DIR$/tests/test157.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test158.jpg" afterPath="$PROJECT_DIR$/tests/test158.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test159.jpg" afterPath="$PROJECT_DIR$/tests/test159.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test160.jpg" afterPath="$PROJECT_DIR$/tests/test160.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test161.jpg" afterPath="$PROJECT_DIR$/tests/test161.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test162.jpg" afterPath="$PROJECT_DIR$/tests/test162.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test163.jpg" afterPath="$PROJECT_DIR$/tests/test163.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test164.jpg" afterPath="$PROJECT_DIR$/tests/test164.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test165.jpg" afterPath="$PROJECT_DIR$/tests/test165.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test166.jpg" afterPath="$PROJECT_DIR$/tests/test166.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test167.jpg" afterPath="$PROJECT_DIR$/tests/test167.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test168.jpg" afterPath="$PROJECT_DIR$/tests/test168.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test169.jpg" afterPath="$PROJECT_DIR$/tests/test169.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test170.jpg" afterPath="$PROJECT_DIR$/tests/test170.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test171.jpg" afterPath="$PROJECT_DIR$/tests/test171.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test172.jpg" afterPath="$PROJECT_DIR$/tests/test172.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test173.jpg" afterPath="$PROJECT_DIR$/tests/test173.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test174.jpg" afterPath="$PROJECT_DIR$/tests/test174.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test175.jpg" afterPath="$PROJECT_DIR$/tests/test175.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test176.jpg" afterPath="$PROJECT_DIR$/tests/test176.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test177.jpg" afterPath="$PROJECT_DIR$/tests/test177.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test178.jpg" afterPath="$PROJECT_DIR$/tests/test178.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test179.jpg" afterPath="$PROJECT_DIR$/tests/test179.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test180.jpg" afterPath="$PROJECT_DIR$/tests/test180.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test181.jpg" afterPath="$PROJECT_DIR$/tests/test181.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test182.jpg" afterPath="$PROJECT_DIR$/tests/test182.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test183.jpg" afterPath="$PROJECT_DIR$/tests/test183.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test184.jpg" afterPath="$PROJECT_DIR$/tests/test184.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test185.jpg" afterPath="$PROJECT_DIR$/tests/test185.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test186.jpg" afterPath="$PROJECT_DIR$/tests/test186.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test187.jpg" afterPath="$PROJECT_DIR$/tests/test187.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test188.jpg" afterPath="$PROJECT_DIR$/tests/test188.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test189.jpg" afterPath="$PROJECT_DIR$/tests/test189.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test190.jpg" afterPath="$PROJECT_DIR$/tests/test190.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test191.jpg" afterPath="$PROJECT_DIR$/tests/test191.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test192.jpg" afterPath="$PROJECT_DIR$/tests/test192.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test193.jpg" afterPath="$PROJECT_DIR$/tests/test193.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test194.jpg" afterPath="$PROJECT_DIR$/tests/test194.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test195.jpg" afterPath="$PROJECT_DIR$/tests/test195.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test196.jpg" afterPath="$PROJECT_DIR$/tests/test196.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test197.jpg" afterPath="$PROJECT_DIR$/tests/test197.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test198.jpg" afterPath="$PROJECT_DIR$/tests/test198.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test199.jpg" afterPath="$PROJECT_DIR$/tests/test199.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test5.jpg" afterPath="$PROJECT_DIR$/tests/test5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test50.jpg" afterPath="$PROJECT_DIR$/tests/test50.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test500.jpg" afterPath="$PROJECT_DIR$/tests/test500.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test512.jpg" afterPath="$PROJECT_DIR$/tests/test512.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BlueChannelComparator.java" afterPath="$PROJECT_DIR$/src/BlueChannelComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ColorMeanVector.java" afterPath="$PROJECT_DIR$/src/ColorMeanVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GreenChannelComparator.java" afterPath="$PROJECT_DIR$/src/GreenChannelComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageSort.java" afterPath="$PROJECT_DIR$/src/ImageSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageSortException.java" afterPath="$PROJECT_DIR$/src/ImageSortException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageSortGUI.java" afterPath="$PROJECT_DIR$/src/ImageSortGUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImageSortTester.java" afterPath="$PROJECT_DIR$/src/ImageSortTester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InputUnit.java" afterPath="$PROJECT_DIR$/src/InputUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RedChannelComparator.java" afterPath="$PROJECT_DIR$/src/RedChannelComparator.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="DimensionInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/intellij/DimensionInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GridConstraints.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/intellij/GridConstraints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GridLayoutManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/intellij/GridLayoutManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LayoutState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/intellij/LayoutState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerticalInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/intellij/VerticalInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spacer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/intellij/Spacer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/intellij/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageSortGUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ImageSortGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageSortTester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ImageSortTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlueChannelComparator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BlueChannelComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/intellij/AbstractLayout.java" />
+        <option value="$PROJECT_DIR$/src/intellij/DimensionInfo.java" />
+        <option value="$PROJECT_DIR$/src/intellij/GridConstraints.java" />
+        <option value="$PROJECT_DIR$/src/intellij/GridLayoutManager.java" />
+        <option value="$PROJECT_DIR$/src/intellij/LayoutState.java" />
+        <option value="$PROJECT_DIR$/src/intellij/VerticalInfo.java" />
+        <option value="$PROJECT_DIR$/src/intellij/Spacer.java" />
+        <option value="$PROJECT_DIR$/src/intellij/Util.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="30" />
+    <option name="width" value="1920" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="intellij" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ImageSortGUI">
+    <configuration default="false" name="ImageSortGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ImageSortGUI" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="tests/ 1 1 1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ImageSort" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ImageSort" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.ImageSortGUI" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.ImageSortGUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d44bf80-d138-47c4-8c45-09bc15f263dc" name="Default" comment="" />
+      <created>1497290853752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497290853752</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/intellij/DimensionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/GridConstraints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/GridLayoutManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/LayoutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/VerticalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/Spacer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageSortGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageSortTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/AbstractLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/DimensionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/GridConstraints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/GridLayoutManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/LayoutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/VerticalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/Spacer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intellij/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageSortGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImageSortTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BlueChannelComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

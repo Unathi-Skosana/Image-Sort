@@ -1,3 +1,5 @@
+import intellij.GridConstraints;
+import intellij.GridLayoutManager;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -108,11 +110,15 @@ public class ImageSortGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Make a help window pop-up
-                JLabel label = new JLabel("<html>*Resort button<br>Resorts the images taking arguments"
-                        + " from the checked buttons<br>*Help Window button<br>Opens this window<br>"
-                            + "*Exit button<br>Exits the program</html>");
+                JLabel label = new JLabel("<html>*Resort button<br>Resorts the images"
+                        + " taking arguments from the checked buttons<br>*Help Window"
+                        + " button<br>Opens this window<br>"
+                        + "*Exit button<br>Exits the program</html>");
                 label.setFont(new Font("Ubuntu", Font.PLAIN, 12));
-                JOptionPane.showMessageDialog(null,label, "Help Message Dialog", JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null
+                        , label
+                        , "Help Message Dialog"
+                        , JOptionPane.PLAIN_MESSAGE);
             }
         });
 
@@ -128,7 +134,9 @@ public class ImageSortGUI extends JFrame {
                 String sortAlg = getCheckedButtonText(buttonGroup2);
                 String newsortParam = convertRGBButtonText(sortParam);
                 String newsortAlg = convertSortAlgButtonText(sortAlg);
-                SortMediator newList = new SortMediator(sortUnit.getOriginalList(), newsortAlg, InputUnit.selectComparator(newsortParam));
+                SortMediator newList = new SortMediator(sortUnit.getOriginalList()
+                        , newsortAlg
+                        , InputUnit.selectComparator(newsortParam));
                 sortUnit = newList;
                 displaySortingTime();
 
@@ -211,7 +219,9 @@ public class ImageSortGUI extends JFrame {
      * @return returns the text on the checked radio button
      */
     private String getCheckedButtonText(ButtonGroup buttonGroup) {
-        for (Enumeration<AbstractButton> buttons = buttonGroup.getElements(); buttons.hasMoreElements(); ) {
+        for (Enumeration<AbstractButton> buttons =
+                    buttonGroup.getElements();
+                    buttons.hasMoreElements();) {
             AbstractButton button = buttons.nextElement();
             if (button.isSelected()) {
                 return button.getText();
@@ -322,10 +332,13 @@ public class ImageSortGUI extends JFrame {
      * @throws IOException if an input or output error
      *                     occurs.
      */
-    private ArrayList<BufferedImage> buildBufferedImageList(ColorMeanVector[] means) throws IOException {
-        ArrayList<BufferedImage> sortedList = new ArrayList<BufferedImage>();
+    private ArrayList<BufferedImage> buildBufferedImageList(
+                ColorMeanVector[] means) throws IOException {
+        ArrayList<BufferedImage> sortedList =
+                new ArrayList<BufferedImage>();
         for (int i = 0; i < means.length; i++) {
-            BufferedImage p = ImageIO.read(new File(imageDirectory + means[i].getImageName()));
+            BufferedImage p = ImageIO.read(new File(imageDirectory
+                    + means[i].getImageName()));
             sortedList.add(p);
         }
         return sortedList;
@@ -371,7 +384,8 @@ public class ImageSortGUI extends JFrame {
      * above the image.
      */
     private void displayFileName() {
-        String fileName = (sortUnit.getSortedList()[imageIndex].getImageName());
+        String fileName = (sortUnit.getSortedList()[imageIndex]
+                .getImageName());
         fileNameField.setText(fileName);
     }
 
@@ -380,7 +394,8 @@ public class ImageSortGUI extends JFrame {
      * below the image
      */
     private void displaySortingTime() {
-        sortingTime.setText("Sorting time \n" + sortUnit.getSortingTime() + " s");
+        sortingTime.setText("Sorting time \n"
+        + sortUnit.getSortingTime() + " s");
     }
 
     /**

@@ -1,4 +1,4 @@
-/*
+package intellij;/*
  * Copyright 2000-2009 JetBrains s.r.o.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -105,7 +105,7 @@ public final class GridConstraints implements Cloneable {
   public final Dimension myMinimumSize;
 
   /**
-   * overridden preferred size. Never <code>null</code>. Term "overridden" means that GridLayoutManager gets
+   * overridden preferred size. Never <code>null</code>. Term "overridden" means that intellij.GridLayoutManager gets
    * preferred size from the constrains first. Moreover if one of the returned dimensions (x or y)
    * is negative then the corresponding dimension is also calculated by the component.
    * It means that it's possible to override any particular dimension without subclassing
@@ -437,6 +437,6 @@ public final class GridConstraints implements Cloneable {
 
   public String toString() {
     //noinspection HardCodedStringLiteral
-    return "GridConstraints (row=" + myRow + ", col=" + myColumn + ", rowspan=" + myRowSpan + ", colspan=" + myColSpan + ")";
+    return "intellij.GridConstraints (row=" + myRow + ", col=" + myColumn + ", rowspan=" + myRowSpan + ", colspan=" + myColSpan + ")";
   }
 }

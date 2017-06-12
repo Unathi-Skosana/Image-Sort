@@ -17,8 +17,14 @@ public class ImageSort {
         String sortAlg     = args[1];
         String sortParam   = args[2];
         String guiToggle   = args[3];
-        InputUnit input    = new InputUnit(path, sortAlg, sortParam, guiToggle);
-        SortMediator sortMediator = new SortMediator(input.getImageRGBMeans(), input.getSortAlg(), input.getComparator());
+        InputUnit input    = new InputUnit(path
+                , sortAlg
+                , sortParam
+                , guiToggle);
+        SortMediator sortMediator = 
+                new SortMediator(input.getImageRGBMeans()
+                    , input.getSortAlg()
+                    , input.getComparator());
         sortMediator.writeImageNamesToFile();
         checkGUIInvocation(guiToggle, input);
     }
@@ -31,7 +37,8 @@ public class ImageSort {
      *                    1 - on
      * @throws Exception  if digit is neither a 0 or 1
      */
-    public static void checkGUIInvocation(String guiState, InputUnit inputUnit) throws Exception {
+    public static void checkGUIInvocation(String guiState
+                , InputUnit inputUnit) throws Exception {
         if (guiState.equals("1")) {
             invokeGUI(inputUnit);
         }
@@ -51,5 +58,4 @@ public class ImageSort {
         frame.pack();
         frame.setVisible(true);
     }
-
-   }
+}

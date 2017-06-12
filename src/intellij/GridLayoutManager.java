@@ -1,4 +1,4 @@
-/*
+package intellij;/*
  * Copyright 2000-2016 JetBrains s.r.o.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

@@ -1,4 +1,4 @@
-/*
+package intellij;/*
  * Copyright 2000-2009 JetBrains s.r.o.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +14,11 @@
  * limitations under the License.
  */
 
-final class HorizontalInfo extends DimensionInfo{
+import intellij.DimensionInfo;
+import intellij.GridConstraints;
+import intellij.GridLayoutManager;
+
+final class HorizontalInfo extends DimensionInfo {
   public HorizontalInfo(final LayoutState layoutState, final int gap){
     super(layoutState, gap);
   }
